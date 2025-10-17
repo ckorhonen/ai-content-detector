@@ -12,6 +12,11 @@ command = "npm run build"
 [ai]
 binding = "AI"
 
-# Environment variables
+# Production environment variables
 [vars]
 ENVIRONMENT = "production"
+
+# Preview environment for pull requests
+[env.preview]
+name = "preview-ai-content-detector"
+vars = { ENVIRONMENT = "preview" }
