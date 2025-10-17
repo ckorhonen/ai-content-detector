@@ -31,6 +31,7 @@
     "@typescript-eslint/parser": "^7.0.0",
     "@vitejs/plugin-react": "^4.2.1",
     "@vitest/coverage-v8": "^1.0.0",
+    "autoprefixer": "^10.4.16",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-jsx-a11y": "^6.8.0",
@@ -38,7 +39,9 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^9.0.0",
     "lint-staged": "^15.2.0",
+    "postcss": "^8.4.32",
     "prettier": "^3.2.0",
+    "tailwindcss": "^3.4.0",
     "typescript": "^5.3.3",
     "vite": "^5.0.0",
     "vitest": "^1.0.0",
@@ -57,7 +60,10 @@
     "ai",
     "content-detection",
     "machine-learning",
-    "cloudflare-workers"
+    "cloudflare-workers",
+    "ai-detector",
+    "image-analysis",
+    "text-analysis"
   ],
   "author": "Chris Korhonen",
   "license": "MIT"
