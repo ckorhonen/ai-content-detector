@@ -102,7 +102,7 @@ jobs:
         with:
           name: build-artifacts
           path: dist/
-          retention-days: 7
+          retention-days: 1
 
   security-scan:
     name: Security Scan
